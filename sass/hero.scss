@@ -1,0 +1,96 @@
+
+// Partial for hero styles
+
+.hero {
+    // background-color: red;
+    background-image: url('../img/heromobile.png'); background-repeat: no-repeat; background-size: cover; padding-top: 4rem;
+}
+
+
+@media (min-width: 583px) {
+    .hero {
+        background-image: url('../img/herodesktop.png'); background-repeat: no-repeat; background-size: cover; padding-top: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+@media (min-width: 925px) {
+    .hero {
+        background-image: url('../img/herodesktop.png'); background-repeat: no-repeat; background-size: cover; padding-top: 4rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero {
+        background-image: url('../img/herodesktop.png'); background-repeat: no-repeat; background-size: cover; padding-top: 4rem;
+        // background-color: pink;
+        padding-left: 8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero {
+        background-image: url('../img/herodesktop.png'); background-repeat: no-repeat; background-size: cover; padding-top: 4rem;
+        // background-color: gray;
+        padding-left: 10rem;
+    }
+}
+
+@media (min-width: 1650px) {
+    .hero {
+        background-image: url('../img/herodesktop.png'); background-repeat: no-repeat; background-size: cover; padding-top: 4rem;
+        // background-color: black;
+    }
+}
+
+.about {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+    .about {
+        width: 75%;
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about {
+        width: 50%;
+        font-size: 1.4rem;
+    }
+}
+
+.title {
+    font-size: 4rem;
+}
+
+@media (min-width: 1040px) {
+    .title {
+        font-size: 7rem;
+    }
+}
+
+.cta {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .cta {
+        padding: 0px 2.5rem 0px 2.5rem;
+        width: auto;
+    }
+}
+
+@media (min-width: 1040px) {
+    .cta {
+        padding: 0px 2.5rem 0px 2.5rem;
+    }
+}
+
+.nav-link {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
