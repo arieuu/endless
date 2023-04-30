@@ -11000,7 +11000,7 @@ textarea.form-control-lg {
 }
 
 .hero {
-  background-image: url("../img/heromobile.png");
+  background-image: url("../img/heromobileai.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 4rem;
@@ -11008,7 +11008,7 @@ textarea.form-control-lg {
 
 @media (min-width: 583px) {
   .hero {
-    background-image: url("../img/herodesktop.png");
+    background-image: url("../img/herodesktopai.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 4rem;
@@ -11017,7 +11017,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 925px) {
   .hero {
-    background-image: url("../img/herodesktop.png");
+    background-image: url("../img/herodesktopai.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 4rem;
@@ -11026,7 +11026,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .hero {
-    background-image: url("../img/herodesktop.png");
+    background-image: url("../img/herodesktopai.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 4rem;
@@ -11035,7 +11035,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .hero {
-    background-image: url("../img/herodesktop.png");
+    background-image: url("../img/herodesktopai.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 4rem;
@@ -11044,7 +11044,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 1650px) {
   .hero {
-    background-image: url("../img/herodesktop.png");
+    background-image: url("../img/herodesktopai.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 4rem;
