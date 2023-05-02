@@ -16,6 +16,7 @@ $beige: #ffffe7;
 $custom-theme-colors: (
     "beige": #ffffe7,
     "purple": #C585B3,
+    "gray": #292929
 );
 
 // Now we merge the existing color map with our custom one so that all of them are available to us
@@ -75,5 +76,19 @@ $theme-colors: map-merge($custom-theme-colors , $theme-colors); // The order doe
 }
 
 .second-section {
-    padding: 6rem 0rem 6rem 0rem;
+    padding: 10rem 0rem 10rem 0rem;
 }
+
+/*
+.third-section {
+    .container {
+        h1 {
+            margin: 0rem 8rem 0rem 8rem;
+        }
+
+        p {
+            margin-left: 8rem;
+        }
+    }
+}
+*/
