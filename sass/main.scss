@@ -36,3 +36,44 @@ $theme-colors: map-merge($custom-theme-colors , $theme-colors); // The order doe
 // Hero stylings
 
 @import "hero.scss";
+
+
+.second-title{
+    font-size: 3.5rem;
+}
+
+@media (min-width: 992px) {
+    .second-title {
+        font-size: 4rem;
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .second-title {
+        font-size: 6rem;
+        width: 50%;
+    }
+}
+
+
+.second-paragraph {
+    font-size: 1.3rem;
+}
+
+@media (min-width: 992px) {
+    .second-paragraph {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .second-paragraph{
+        font-size: 1.4rem;
+    }
+}
+
+.second-section {
+    padding: 6rem 0rem 6rem 0rem;
+}
