@@ -1,0 +1,19 @@
+.piece-title {
+    font-size: 3rem;
+}
+
+@media (min-width: 1040px) {
+    .piece-title {
+        font-size: 4rem;
+    }
+}
+
+.piece {
+    width: 100%;
+}
+
+@media (min-width: 650px) {
+    .piece {
+        width: 30rem;
+    }
+}
