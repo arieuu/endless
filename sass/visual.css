@@ -1,3 +1,4 @@
+@import url("main.css");
 .piece-title {
   font-size: 3rem;
 }
@@ -15,4 +16,17 @@
   .piece {
     width: 30rem;
   }
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.sub-menu {
+  font-weight: bolder;
 }/*# sourceMappingURL=visual.css.map */
