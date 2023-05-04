@@ -11133,6 +11133,11 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 .second-title {
   font-size: 3.5rem;
 }

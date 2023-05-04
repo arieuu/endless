@@ -1,0 +1,32 @@
+/*
+.hero {
+    padding: 0;
+    margin: 0;
+
+    .container {
+        padding-left: 7rem;
+        margin-top: 2rem;
+    }
+}
+*/
+.article-title {
+  font-size: 4rem;
+}
+
+.article-paragraph {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1040px) {
+  .article-title {
+    font-size: 5.5rem;
+  }
+  .article-paragraph {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 576px) {
+  .articles .container {
+    padding-left: 5rem;
+  }
+}/*# sourceMappingURL=reading.css.map */
