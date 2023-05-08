@@ -35,3 +35,15 @@ a:hover {
     font-weight: bolder;
 }
 
+.sub-menu:hover {
+    a {
+        cursor: pointer;
+    }
+}
+
+.gallery {
+    
+    a {
+        cursor: default;
+    }
+}

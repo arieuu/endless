@@ -29,4 +29,12 @@ a:hover {
 
 .sub-menu {
   font-weight: bolder;
+}
+
+.sub-menu:hover a {
+  cursor: pointer;
+}
+
+.gallery a {
+  cursor: default;
 }/*# sourceMappingURL=visual.css.map */
