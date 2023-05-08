@@ -11114,6 +11114,7 @@ textarea.form-control-lg {
 }
 .cta {
   width: 100%;
+  border-radius: 15px;
 }
 
 @media (min-width: 768px) {
