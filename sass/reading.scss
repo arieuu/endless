@@ -32,12 +32,17 @@
 
 .articles {
     .container {
-        padding-left: 3rem;        
+        padding: 3rem;
     }
 }
 
 .articles {
     .container {
+        margin-right: 16rem;
+        @media (min-width: 700px) {
+            margin-left: 3rem;
+        }
+
         @media (min-width: 1000px) {
             margin-left: 6rem;
             width: 75%;
